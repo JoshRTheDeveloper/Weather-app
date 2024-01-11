@@ -17,7 +17,7 @@ Track the weather of a city.
 
 
 #### Screenshot
-
+![my screenshot](assets/Screenshot.png).
 
 ## Roadmap
 I am sure there are parts that can be refactored. Eliminate code that fixed bugs. Would like a clear button that clears local storage. 

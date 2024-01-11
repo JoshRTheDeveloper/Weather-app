@@ -14,7 +14,7 @@ Track the weather of a city.
 
 
 ## Deployment
-
+https://joshrthedeveloper.github.io/Weather-app/
 
 #### Screenshot
 ![my screenshot](assets/Screenshot.png).

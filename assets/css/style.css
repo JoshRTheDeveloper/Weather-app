@@ -36,3 +36,34 @@ button:hover {
 	background-color: #2980b9;
 }
 
+.results-container {
+	flex: 1; 
+	max-width: 800px; 
+	margin-left: 20px; 
+}
+
+.current-weather {
+	background-color: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+	.container {
+					flex-direction: column;
+	}
+
+	.search-container {
+					margin-right: 0;
+	}
+
+	
+
+

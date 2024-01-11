@@ -52,18 +52,3 @@ button:hover {
 
 
 
-
-
-
-@media (max-width: 768px) {
-	.container {
-					flex-direction: column;
-	}
-
-	.search-container {
-					margin-right: 0;
-	}
-
-	
-
-

@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0; /* Remove default margin */
@@ -38,9 +38,9 @@ button:hover {
 }
 
 .results-container {
-	flex: 1; /* Take up available space */
-	max-width: 800px; /* Set the maximum width of the results container as needed */
-	margin-left: 20px; /* Add margin for spacing */
+	flex: 1; 
+	max-width: 800px; 
+	margin-left: 20px; 
 }
 
 .current-weather {
@@ -58,9 +58,9 @@ button:hover {
 }
 
 .forecast-card {
- flex: 1 1 auto; /* Allow cards to grow and shrink */
-    max-width: 200px; /* Set a maximum width for each card */
-    margin-right: 10px; /* Add some margin between cards */
+ flex: 1 1 auto; 
+    max-width: 200px; 
+    margin-right: 10px; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -69,26 +69,34 @@ button:hover {
 				font-size: 10px;
 }
 
-/* Media Query for responsiveness */
 @media (max-width: 768px) {
 	.container {
-					flex-direction: column;
+		flex-direction: column;
 	}
 
 	.search-container {
-					margin-right: 0;
+		margin-right: 0;
+	}
+
+	.forecast-container {
+		flex-wrap: wrap; 
+		margin-top: 20px;
 	}
 
 	.forecast-card {
-					flex: 0 1 calc(50% - 20px); /* Adjust for two cards per row on smaller screens */
+		flex: 1 1 100%; 
+		max-width: none; 
+		margin-right: 0; 
+		margin-bottom: 10px; 
+  font-size: 19px;
 	}
-}
 
-.city-button-row {
-	margin-bottom: 10px; /* Adjust the margin as needed */
-}
+	.city-button-row {
+		margin-bottom: 10px;
+	}
 
-#cityButtons button {
-	display: flex;
-	margin: 20px; /* Adjust the margin as needed */
+	#cityButtons button {
+		display: flex;
+		margin: 20px;
+	}
 }
